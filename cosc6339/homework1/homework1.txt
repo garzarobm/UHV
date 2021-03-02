@@ -1,0 +1,13 @@
+5. 
+
+802.11ac = 1.3Gbps, and operates in the 5 GHz frequency band.
+802.11n = Provides data transfer up to 4x 802.11g speeds (200+Mbps) and operates either at 2.4 or 5GHz
+
+
+802.11b = data rate transfer up to 11 Mbps, and operates at 2.4 GHz with ranges of 100-150 feet.
+
+
+
+802.11g = rates 54Mbps and operates at a2.4Ghz
+802.11a  = data rates 54 Mbps and operates at 5Ghz with ranges up to 75 feet
+

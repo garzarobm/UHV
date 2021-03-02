@@ -1,0 +1,1327 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Miguel Garza 
+\end_layout
+
+\begin_layout Standard
+Homework 3
+\end_layout
+
+\begin_layout Standard
+1a.Consider the language L = {w | w begins with a 1 and ends with a 0}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=1\sum*0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=1(0+1)*0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 100000, 10100, 1010.
+\end_layout
+
+\begin_layout Standard
+Thus, the regular expression is 1(0+1)*0 .
+\end_layout
+
+\begin_layout Standard
+1b.
+ Consider the language L = {w | w contains at least three 1s}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=\sum*1\sum*1\sum*1\sum*
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=(0+1)*1(0+1)*1(0+1)*1(0+1)*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 111, 101001, 10101, 0000001111,111
+1.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(0+1)*1(0+1)*1(0+1)*1(0+1)*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+2c.
+ Consider the language L = {w | w contains the substring 0101 (i.e, w = x0101y
+ for some x and y)}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=\sum*1010\sum*
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=(0+1)*1010(0+1)*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 0101, 001011, 00001010111,
+ 01010101010101.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(0+1)*1010(0+1)*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+2d.
+ Consider the language L = {w | w has length at least 3 and its third symbol
+ is a 0}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=\sum\sum0\sum*
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=(0+1)(0+1)0(0+1)*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 000, 0000, 110, 110000
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(0+1)(0+1)0(0+1)*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+3e.
+ Consider the language L = {w | w starts with 0 and has odd length, or starts
+ with 1 and has even length}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=0(\sum\sum)*+1\sum(\sum\sum)*
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=0((0+1)(0+1))*+1(0+1)((0+1)(0+1))*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 0, 011, 010, 00101, 10, 11.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0((0+1)(0+1))*+1(0+1)((0+1)(0+1))*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+3f.
+ Consider the language L = {w | w doesn't contain the substring 110}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=0*(10^{+})*1*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 010, 011, 0101.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0*(10
+\begin_inset Formula $^{+}$
+\end_inset
+
+)*1*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+4g.
+ Consider the language L = {w | w The length of w is at most 0}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=\varepsilon+\sum+\sum\sum+\sum\sum\sum+\sum\sum\sum\sum+\sum\sum\sum\sum\sum
+\]
+
+\end_inset
+
++
+\begin_inset Formula 
+\[
+=\varepsilon+(0+1)+(0+1)(0+1)+(0+1)(0+1)(0+1)+(0+1)(0+1)(0+1)(0+1)+(0+1)(0+1)(0+1)(0+1)(0+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 
+\begin_inset Formula $\varepsilon,$
+\end_inset
+
+0, 00, 000, 0000, 0000,101, 1010 the empty string.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++(0+1)+(0+1)(0+1)+(0+1)(0+1)(0+1)+(0+1)(0+1)(0+1)(0+1)+(0+1)(0+1)(0+1)(0+1)(0+1)
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+4h.
+ Consider the language L = {w | w is any string except 11 and 111}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=\varepsilon+\sum+0\sum+10+0\sum\sum+10\sum+110+(\sum)^{3}(\sum)^{+}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\varepsilon+(0+1)+0(0+1)+10+0(0+1)(0+1)+10(0+1)+110+((0+1))^{3}((0+1))^{+}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 
+\begin_inset Formula $\varepsilon,$
+\end_inset
+
+101, 110, 1010, ....
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++(0+1)+0(0+1)+10+0(0+1)(0+1)+10(0+1)+110+((0+1))
+\begin_inset Formula $^{3}$
+\end_inset
+
+((0+1))
+\begin_inset Formula $^{+}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+5i.
+ Consider the language L = {w | every odd position of w is a 1}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=(1\sum)*(\varepsilon+1)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=(1(0+1))*(\varepsilon+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 
+\begin_inset Formula $\varepsilon,$
+\end_inset
+
+101, 111, 1010, ....
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(1(0+1))*(
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++1)
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+5j.
+ Consider the language L = {w | w contains at least two 0s and at most one
+ 1}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=00*00*(\varepsilon+1)+00*(\varepsilon+1)00*+(\varepsilon+1)00*00*
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The regular expression accepts string such as 001, 010, 100, ....
+ Note that for 00*00*
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++1), there are two mandatory zeros and at most one 1.
+ The one can be placed at the start, middle or at the end.
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 00*00*(
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++1)+00*(
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++1)00*+(
+\begin_inset Formula $\varepsilon$
+\end_inset
+
++1)00*00*
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ .
+\end_layout
+
+\begin_layout Standard
+6k.
+ Consider the language L = {
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+,0}.
+ In all parts, the alphabet is {0,1} .
+ Let R be the regular expression that generates the language l.
+ The regular expression is as follows:
+\begin_inset Formula 
+\[
+R=0+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore, the regular expression is 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+0+
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+7b.
+ Consider the language, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+= { www | w 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ {a,b}* }.
+\end_layout
+
+\begin_layout Standard
+Assume A
+\begin_inset Formula $_{2}$
+\end_inset
+
+is a regular language.
+\end_layout
+
+\begin_layout Standard
+Let P be the pumping length given by the pumping lemma.
+\end_layout
+
+\begin_layout Standard
+Consider a string S = a
+\begin_inset Formula $^{P}$
+\end_inset
+
+ba
+\begin_inset Formula $^{P}$
+\end_inset
+
+ba
+\begin_inset Formula $^{P}$
+\end_inset
+
+b 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+A
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By pumping lemma, this string can be divided into three pieces xyz such
+ that |xy| 
+\begin_inset Formula $\leq$
+\end_inset
+
+p, |y| > 0 and xy'z 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ A
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\begin_inset Formula $\forall$
+\end_inset
+
+ i 
+\begin_inset Formula $\geq$
+\end_inset
+
+0
+\end_layout
+
+\begin_layout Standard
+So S = a
+\begin_inset Formula $^{p}$
+\end_inset
+
+ba
+\begin_inset Formula $^{p}ba^{p}b$
+\end_inset
+
+= xyz
+\end_layout
+
+\begin_layout Standard
+Let aabaabaab be the string that belongs to A
+\begin_inset Formula $_{2}$
+\end_inset
+
+.The pumping length of the string is 2.
+ To satisfy the conditions of the pumping lemma, x = a, y = a, z = baabaab
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S=aabaabaab
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{a}{x}\frac{aa}{y}\frac{baabaab}{z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pump the middle part such that xy
+\begin_inset Formula $^{i}$
+\end_inset
+
+z (i
+\begin_inset Formula $\geq0$
+\end_inset
+
+).
+ ....For i = 2, the y becomes aa.
+ The string after pumping is aaabaabaab.
+\begin_inset Formula 
+\[
+S=(a)(a)^{i}baabaab
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{a}{x}\frac{aa}{y}\frac{baabaab}{z}
+\]
+
+\end_inset
+
+when [i = 2]
+\end_layout
+
+\begin_layout Standard
+The string aaabaabaab 
+\begin_inset Formula $\notin$
+\end_inset
+
+ A
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ It is a contradiction.
+ So, the pumping lemma is violated.
+ 
+\end_layout
+
+\begin_layout Standard
+Therefore, A
+\begin_inset Formula $_{2}$
+\end_inset
+
+is not a regular language.
+\end_layout
+
+\begin_layout Standard
+8.
+ We need to prove that B
+\begin_inset Formula $_{n}$
+\end_inset
+
+= {a
+\begin_inset Formula $^{k}$
+\end_inset
+
+| k is a multiple of n } is regular for each n 
+\begin_inset Formula $\geq$
+\end_inset
+
+1.
+\end_layout
+
+\begin_layout Standard
+Suppose k=ni, where i is any positive integer.
+ First let's consider when i = 1.
+\end_layout
+
+\begin_layout Standard
+When i = 1 and n = 1:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B_{1}=\{a^{k}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a^{ni}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a^{|x|}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, the string comes out to be {a}
+\end_layout
+
+\begin_layout Standard
+Next, we consider i = 1 and n = 2:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B_{2}=\{a^{k}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\{a^{ni}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a^{2x1}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{aa\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then, the string comes out to be {aa}.
+\end_layout
+
+\begin_layout Standard
+Now we consider when when i = 1 and n = 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B_{3}=\{a^{k}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a^{ni}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{a^{3x1}\}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\{aaa\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the string comes out to be {aaa} and so forth for increased values
+ of n.
+\end_layout
+
+\begin_layout Standard
+Looking at the finite automaton, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/miguel/Downloads/Image from iOS (2).jpg
+	lyxscale 10
+	scale 10
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+q
+\begin_inset Formula $_{0}$
+\end_inset
+
+is the initial and final state and q
+\begin_inset Formula $_{1},q_{2},q_{3},q_{n-1}$
+\end_inset
+
+are the subsequent states.
+\end_layout
+
+\begin_layout Standard
+By the closure property of the regular expression, it is clearly seen that
+ the specific expression is a regular expression when the value of n is
+ greater than and equal to 1.
+\end_layout
+
+\begin_layout Standard
+Closure property includes various operations such as union, intersection,
+ set complement, set reversal, set difference and many more.
+ Assume that B
+\begin_inset Formula $_{n}$
+\end_inset
+
+is regular.
+\end_layout
+
+\begin_layout Standard
+- Union of B
+\begin_inset Formula $_{1}$
+\end_inset
+
+and B
+\begin_inset Formula $_{2}$
+\end_inset
+
+results in the third string and it is also a regular expression.
+\end_layout
+
+\begin_layout Standard
+- Likewise, if user applies any property of closure, then the result is
+ the regular expression.
+\end_layout
+
+\begin_layout Standard
+Hence, it is proved that the above expression is the regular expression.
+\end_layout
+
+\begin_layout Standard
+9.
+ 
+\end_layout
+
+\begin_layout Standard
+Pumping lemma iteration:
+\end_layout
+
+\begin_layout Standard
+For a regular language A with the pumping length P, if S is any string of
+ A with minimum length of P, then the string S can be divided into 3 pieces
+ x, y, and z represented as S = xyz should satisfy the following conditions:
+\end_layout
+
+\begin_layout Standard
+for each |y| > 0, and |xy| 
+\begin_inset Formula $\leq$
+\end_inset
+
+P.
+\end_layout
+
+\begin_layout Standard
+a.
+ Consider the language L = {0
+\begin_inset Formula $^{n}$
+\end_inset
+
+1
+\begin_inset Formula $^{m}$
+\end_inset
+
+0
+\begin_inset Formula $^{n}$
+\end_inset
+
+ | m, n 
+\begin_inset Formula $\geq$
+\end_inset
+
+ 0 ).
+ 
+\end_layout
+
+\begin_layout Standard
+Assume that L is regular language and a string S = 0
+\begin_inset Formula $^{P}$
+\end_inset
+
+10
+\begin_inset Formula $^{P}$
+\end_inset
+
+.
+ Divide the string into three pieces x, y and z.
+ So, S = 0
+\begin_inset Formula $^{P}10^{P}$
+\end_inset
+
+= xyz where P is the pumping length.
+\end_layout
+
+\begin_layout Standard
+Assume that x=0
+\begin_inset Formula $^{P-K}$
+\end_inset
+
+, y = 0
+\begin_inset Formula $^{K}$
+\end_inset
+
+and z = 10
+\begin_inset Formula $^{P}$
+\end_inset
+
+(where K > 0)
+\end_layout
+
+\begin_layout Standard
+Now, xy
+\begin_inset Formula $^{0}$
+\end_inset
+
+z = 0
+\begin_inset Formula $^{P-K}$
+\end_inset
+
+(0
+\begin_inset Formula $^{K}$
+\end_inset
+
+)
+\begin_inset Formula $^{0}$
+\end_inset
+
+10
+\begin_inset Formula $^{P}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+= 0
+\begin_inset Formula $^{P-K}$
+\end_inset
+
+10
+\begin_inset Formula $^{P}$
+\end_inset
+
+
+\begin_inset Formula $\notin$
+\end_inset
+
+L 
+\end_layout
+
+\begin_layout Standard
+The string xy
+\begin_inset Formula $^{0}$
+\end_inset
+
+z does not belong to L because P-K < P.
+\end_layout
+
+\begin_layout Standard
+So, the assumption that L is regular is a contradiction.
+ Thus, by using pumping lemma, it is proved that L is not regular.
+\end_layout
+
+\begin_layout Standard
+10.
+\end_layout
+
+\begin_layout Standard
+Without DFA:
+\end_layout
+
+\begin_layout Standard
+If A is a finite language, then it contains a finite number of strings a0,a1,⋯,a
+n.
+ The language {a
+\begin_inset Formula $_{i}$
+\end_inset
+
+} consisting of a single literal string ai is regular.
+ The union of a finite number of regular languages is also regular.
+ Therefore, A={a
+\begin_inset Formula $_{0}$
+\end_inset
+
+}∪{a
+\begin_inset Formula $_{1}$
+\end_inset
+
+}∪⋯∪{a
+\begin_inset Formula $_{n}$
+\end_inset
+
+} is regular.
+\end_layout
+
+\begin_layout Standard
+With DFA:
+\end_layout
+
+\begin_layout Standard
+Let P be the set of all prefixes of words in A.
+ Since A is finite, so is P.
+ We construct a DFA whose states are {q
+\begin_inset Formula $_{p}$
+\end_inset
+
+: p∈P}∪{q′}.
+ The initial state is qϵ.
+ A state qp is final if and only if p∈A.
+ When at state qp and reading σ, if pσ∈P then we move to qpσ, otherwise
+ we move to q′.
+ When at state q′, we always stay in q′.
+\end_layout
+
+\begin_layout Standard
+What I described above is the minimal DFA.
+ You can get a somewhat simpler DFA by taking an arbitrary superset of P,
+ such as the set of all words of length at most n, where n is the length
+ of the longest word in A.
+\end_layout
+
+\end_body
+\end_document
