@@ -1,0 +1,8 @@
+Fall 2021
+
+cosc 6329 - Data warehousing and Data Mining
+cosc 6336 Database Systems and Development
+cosc 6359 Cloud Computing
+GMNG 6311 Fundamentals of 3D modeling
+
+backup: Design and Analysis of Algoritms
